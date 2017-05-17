@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"Bitbake Syntax",
+		"Dockerfile Syntax Highlighting",
+		"DoxyDoc",
+		"EditorConfig",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"JsFormat",
+		"Package Control",
+		"Pretty JSON",
+		"VHDL",
+		"Vintageous"
+	]
+}

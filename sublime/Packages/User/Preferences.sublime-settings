@@ -1,0 +1,9 @@
+{
+	"font_face": "Source Code Pro",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"vintageous_use_ctrl_keys": true
+}

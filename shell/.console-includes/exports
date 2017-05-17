@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Editors.
+export EDITOR="vim"
+export VISUAL="vim"
+
+#LS Colors
+export CLICOLOR=1
+#export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+#export LSCOLORS="Gxfxcxdxbxegedabagacad"
+
+export LC_CTYPE=$LANG
+
+#
+# Color grep results
+# Examples: http://rubyurl.com/ZXv
+#
+# export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;32'
+
+unamestr=`uname`
+if [[ "$unamestr" == 'Darwin' ]]; then
+	export PATH="/usr/local/bin::/usr/local/sbin::$PATH"
+    export PATH="~/.cabal/bin:$PATH"
+    export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+    export WORKON_HOME=~/Envs
+    export PATH=/usr/local/redis/bin:$PATH
+
+    [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
+    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin
+    export PATH=$PATH:/usr/local/CrossPack-AVR/bin
+
+    export PATH=~/npm-global/bin:$PATH
+fi
+
+export NVM_DIR="$HOME/.nvm"
+export GOPATH=~/.go
+export PATH=$PATH:~/.go/bin

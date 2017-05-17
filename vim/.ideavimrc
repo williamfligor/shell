@@ -1,0 +1,17 @@
+set relativenumber
+set number
+
+nnoremap <space><space> :noh<cr>
+nnoremap <space>f :find<cr>
+" New verticle window split
+nnoremap <space>w <C-w>v<C-w>l
+nnoremap <space>h <C-w>s<C-w>k
+
+" Moving around windows
+nnoremap <C-H> <C-w>h
+nnoremap <C-J> <C-w>j
+nnoremap <C-K> <C-w>k
+nnoremap <C-L> <C-w>l
+
+set visualbell
+set noerrorbells
