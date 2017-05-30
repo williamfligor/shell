@@ -16,10 +16,8 @@ function! BuildVimProc(info)
 endfunction
 
 
-Plug 'fugitive.vim'
-Plug 'rainbow_parentheses.vim'
-Plug 'unite.vim'
-Plug 'molokai'
+Plug 'Shougo/unite.vim'
+Plug 'tomasr/molokai'
 Plug 'justinj/vim-react-snippets'
 Plug 'rking/ag.vim'
 Plug 'christoomey/vim-tmux-navigator'
