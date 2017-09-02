@@ -30,6 +30,8 @@ Plug 'tomtom/tcomment_vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle'   }
 Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
 Plug 'Raimondi/delimitMate'
+Plug 'w0rp/ale'
+Plug 'ctjhoa/spacevim'
 
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

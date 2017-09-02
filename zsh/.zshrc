@@ -109,3 +109,5 @@ fi
 export PATH=~/.bin:$PATH
 
 source $ZSH_CUSTOM/spaceship.zsh
+
+eval $(thefuck --alias)
