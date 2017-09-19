@@ -39,6 +39,3 @@ fi
 git config --global core.excludesfile ~/.gitignore_global
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash
-
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl

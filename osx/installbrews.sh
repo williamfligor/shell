@@ -20,10 +20,10 @@ brew install dos2unix
 brew install python
 brew install python3
 brew install unrar
-brew install aws-elasticbeanstalk
 brew install aspell
 brew install wget
-brew install awscli
 brew install gnu-sed
-brew install git-annex
-brew install doctl
+brew install jq
+brew install yarn
+brew install youtube-dl
+brew install thefuck
