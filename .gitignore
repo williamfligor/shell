@@ -1,2 +1,2 @@
-shell/.misc/.local
-ssh/.ssh/config
+/shell/.misc/local
+/ssh/.ssh/config
