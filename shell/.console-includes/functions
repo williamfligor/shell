@@ -257,3 +257,19 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+function dockerrm() {
+    echo "Delete all images and containers in docker? [y,n]"
+    read deleteAll
+    case $deleteAll in 
+        y|Y) 
+            echo "Deleting all images and containers"
+            # Delete all containers
+            docker rm $(docker ps -a -q)
+            # Delete all images
+            docker rmi $(docker images -q)
+        ;;
+        n|N) echo "Doing nothing..." ;;
+        *) ;; 
+    esac
+}
