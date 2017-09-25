@@ -119,4 +119,4 @@ alias reload="exec $SHELL -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-eval $(thefuck --alias)
+command -v thefuck >/dev/null 2>&1 && eval $(thefuck --alias)

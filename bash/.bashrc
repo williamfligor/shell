@@ -155,21 +155,21 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-MISC=~/.misc/
+MISC=~/.console-includes/
 
 # Load External BASH
-if [ -f $MISC/.aliases ]; then
-    source $MISC/.aliases
+if [ -f $MISC/aliases ]; then
+    source $MISC/aliases
 fi
 
 # Load External BASH
-if [ -f $MISC/.functions ]; then
-    source $MISC/.functions
+if [ -f $MISC/functions ]; then
+    source $MISC/functions
 fi
 
 # Load External BASH
-if [ -f $MISC/.exports ]; then
-    source $MISC/.exports
+if [ -f $MISC/exports ]; then
+    source $MISC/exports
 fi
 
 # Load External BASH

@@ -110,4 +110,4 @@ export PATH=~/.bin:$PATH
 
 source $ZSH_CUSTOM/spaceship.zsh
 
-eval $(thefuck --alias)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

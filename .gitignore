@@ -1,2 +1,2 @@
-shell/.misc/.local
-ssh/.ssh/config
+/shell/.console-includes/local
+/ssh/.ssh/config
