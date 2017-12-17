@@ -10,8 +10,8 @@ brew install cask
 brew tap d12frosted/emacs-plus
 
 # Install brew items
-brew install macvim --with-cscope --with-lua --override-system-vim
-brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+# brew install macvim --with-cscope --with-lua --override-system-vim
+# brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
 brew install stow
 brew install the_silver_searcher
 brew install rename
