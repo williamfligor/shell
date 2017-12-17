@@ -133,7 +133,7 @@
 
 [user]
 	name = William Fligor
-	email = will@liveify.com
+	email = williamfligor@users.noreply.github.com
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

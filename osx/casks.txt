@@ -1,12 +1,15 @@
 1password
+alfred
 adobe-acrobat-reader
 appcleaner
 google-chrome
+google-backup-and-sync
 iterm2
 java
 keepingyouawake
 keyboard-cleaner
 numi
 silverlight
+spectacle
 sublime-text
 teamviewer
