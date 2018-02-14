@@ -13,8 +13,6 @@ done
 
 rm "$HOME/.zshrc"
 
-chsh -s /bin/zsh
-
 # Install vimplug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -33,6 +31,8 @@ if [[ `uname` == 'Darwin' ]]; then
     mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
     link "$HOME/shell/sublime/Packages/User/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
     link "$HOME/shell/sublime/Packages/User/Package Control.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+else
+    stow i3
 fi
 
 

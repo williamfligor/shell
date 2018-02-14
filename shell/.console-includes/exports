@@ -32,6 +32,8 @@ if [[ "$unamestr" == 'Darwin' ]]; then
     export PATH=$PATH:/usr/local/CrossPack-AVR/bin
 
     export PATH=~/npm-global/bin:$PATH
+else
+    export TERMINAL=termite
 fi
 
 export NVM_DIR="$HOME/.nvm"
