@@ -27,6 +27,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-repeat'
 Plug 'tomtom/tcomment_vim'
+Plug 'micha/vim-colors-solarized'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle'   }
 Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
 Plug 'Raimondi/delimitMate'
@@ -89,8 +90,8 @@ let mapleader = ","
 
 filetype plugin indent on
 syntax on
-set background=dark
-colorscheme molokai
+set background=light
+colorscheme solarized
 
 " Airline Theme
 let g:airline_theme='solarized'

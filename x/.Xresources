@@ -1,0 +1,65 @@
+! Colors
+
+! special
+*.foreground:   #536870
+*.background:   #fcf4dc
+*.cursorColor:  #536870
+
+! black
+*.color0:       #002831
+*.color8:       #001e27
+
+! red
+*.color1:       #d11c24
+*.color9:       #bd3613
+
+! green
+*.color2:       #738a05
+*.color10:      #475b62
+
+! yellow
+*.color3:       #a57706
+*.color11:      #536870
+
+! blue
+*.color4:       #2176c7
+*.color12:      #708284
+
+! magenta
+*.color5:       #c61c6f
+*.color13:      #5956ba
+
+! cyan
+*.color6:       #259286
+*.color14:      #819090
+
+! white
+*.color7:       #eae3cb
+*.color15:      #fcf4dc
+
+
+! Urxvt config
+!---------------------
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=9:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=9:antialias=true:hinting=true
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.internalBorder: 30
+URxvt.perl-ext: default,matcher
+URxvt.letterSpace: -1
+URxvt.matcher.button: 1
+URxvt.boldFont:
+! URxvt.url-launcher: /usr/bin/firefox
+URxvt.visualBell: false
+URxvt.depth: 20
+URxvt.lineSpace: 1
+URxvt.geometry: 65x19
+URxvt.intensityStyles: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+

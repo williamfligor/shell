@@ -10,7 +10,7 @@ sudo pacman -Sy --noconfirm i3-gaps i3status i3lock
 sudo pacman -Sy --noconfirm virtualbox-guest-modules-arch virtualbox-guest-utils
 sudo pacman -Sy --noconfirm xorg-server xorg-xinit xf86-video-fbdev xorg-xdpyinfo compton
 sudo pacman -Sy --noconfirm ttf-font-awesome adobe-source-code-pro-fonts xorg-fonts-misc
-sudo pacman -Sy --noconfirm zsh stow xterm rxvt-unicode git udiskie termite conky
+sudo pacman -Sy --noconfirm zsh stow xterm rxvt-unicode git udiskie conky
 
 sudo chsh will -s $(which zsh)
 

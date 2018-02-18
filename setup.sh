@@ -33,6 +33,9 @@ if [[ `uname` == 'Darwin' ]]; then
     link "$HOME/shell/sublime/Packages/User/Package Control.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
 else
     stow i3
+    stow conky
+    stow compton
+    stow termite
 fi
 
 

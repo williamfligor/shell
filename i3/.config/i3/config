@@ -163,7 +163,7 @@ gaps outer 1
 # finds out, if available)
 bar {
       #status_command i3status
-      status_command $HOME/.config/i3/conky-i3bar
+      status_command $HOME/.config/conky/conky-i3bar
       position          top
       font pango:DejaVu Sans Mono, FontAwesome 8
 
@@ -179,5 +179,5 @@ bar {
 }
 
 exec --no-startup-id VBoxClient-all
-exec compton --config ~/.config/i3/compton.conf 
+exec compton --config ~/.config/compton/compton.conf 
 exec feh --bg-scale /home/will/wallpaper.jpg
