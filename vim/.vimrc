@@ -17,7 +17,6 @@ endfunction
 
 
 Plug 'Shougo/unite.vim'
-Plug 'tomasr/molokai'
 Plug 'justinj/vim-react-snippets'
 Plug 'rking/ag.vim'
 Plug 'christoomey/vim-tmux-navigator'
@@ -26,15 +25,12 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-repeat'
-Plug 'tomtom/tcomment_vim'
 Plug 'micha/vim-colors-solarized'
-Plug 'mbbill/undotree', { 'on': 'UndotreeToggle'   }
-Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
-Plug 'Raimondi/delimitMate'
-Plug 'w0rp/ale'
-Plug 'ctjhoa/spacevim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 if has('nvim')
+    Plug 'w0rp/ale'
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     Plug 'Shougo/neoinclude.vim'
     Plug 'Shougo/neomru.vim'
@@ -90,7 +86,7 @@ let mapleader = ","
 
 filetype plugin indent on
 syntax on
-set background=light
+set background=dark
 colorscheme solarized
 
 " Airline Theme

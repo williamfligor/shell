@@ -7,7 +7,7 @@ export ZSH=~/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -107,7 +107,5 @@ if [ -f $MISC/local ]; then
 fi
 
 export PATH=~/.bin:$PATH
-
-source $ZSH_CUSTOM/spaceship.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
