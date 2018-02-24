@@ -35,4 +35,4 @@ scp -r -P "$PORT" ../../shell "$HOST_USER:~"
 # run the install script remotely
 ssh -tt -p "$PORT" "$HOST_USER" "~/install/user.sh $DISK"
 
-ssh -tt -p "$PORT" "$HOST_USER" "rm -rf ~/install"
+# ssh -tt -p "$PORT" "$HOST_USER" "rm -rf ~/install"

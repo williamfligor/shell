@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+source ./util.sh
+include ./proxy.sh
+
 HOST=arch
 USERNAME=will
 HOME_DIR="/home/${USERNAME}"

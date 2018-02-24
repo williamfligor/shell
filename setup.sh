@@ -31,11 +31,13 @@ if [[ `uname` == 'Darwin' ]]; then
     mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
     link "$HOME/shell/sublime/Packages/User/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
     link "$HOME/shell/sublime/Packages/User/Package Control.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+    link "$HOME/shell/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 else
     stow i3
     stow conky
     stow compton
     stow termite
+    link "$HOME/shell/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 fi
 
 

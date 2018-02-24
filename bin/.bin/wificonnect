@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+currnetwork=$(networksetup -getairportnetwork en0 | sed "s/Current Wi-Fi Network: //g" | tr -d '\n')
+
+if [ "$1" == "$currnetwork" ]; then
+    exit 0
+fi
+
+networksetup -setairportnetwork en0 "$1" "$2"

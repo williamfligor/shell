@@ -1,0 +1,29 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.enableNeovim": true,
+    // "C_Cpp.intelliSenseEngine": "Default",
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 11,
+    "files.associations": {
+        "*.pyx": "python"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "vim.disableExtension": false
+}

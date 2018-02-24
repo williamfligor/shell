@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+source ~/install/util.sh
+include ~/install/proxy.sh
+
 DISK="/dev/$1"
 PARTITION="${DISK}1"
 echo DISK="$DISK", PARTITION="$PARTITION"
@@ -19,12 +22,12 @@ mount "$PARTITION" /mnt
 pacman -Syy
 
 # would recommend to use linux-lts kernel if you are running a server environment, otherwise just use "linux"
-# pacstrap /mnt $(pacman -Sqg base | sed 's/^linux$/&-lts/') base-devel grub openssh sudo ntp wget vim
+pacstrap /mnt $(pacman -Sqg base) base-devel grub openssh sudo ntp wget vim
 
 pacstrap /mnt $(pacman -Sqg base) base-devel grub openssh sudo ntp wget vim
 genfstab -p /mnt >> /mnt/etc/fstab
 
-cp ./install/chroot.sh /mnt
+cp -r ./install/* /mnt
 cp ~/.ssh/authorized_keys /mnt
 arch-chroot /mnt ./chroot.sh "$DISK"
 
