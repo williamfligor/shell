@@ -1,9 +1,0 @@
-#!/bin/bash
-
-export ALL_PROXY=http://proxycom:80
-export GIT_PROXY_COMMAND=oe-git-proxy
-export HTTP_PROXY=http://proxy.com:80
-export all_proxy=http://proxy.com:80
-export ftp_proxy=http://proxy.com:80
-export http_proxy=http://proxy.com:80
-export https_proxy=http://proxy.com:80

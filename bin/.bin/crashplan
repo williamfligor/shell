@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# scp dme:"/media/nas/config/crashplan/id/.ui_info" /tmp/.ui_info
-sudo cp "/Library/Application Support/CrashPlan/.ui_info_remote" "/Library/Application Support/CrashPlan/.ui_info"
-open /Applications/CrashPlan.app
