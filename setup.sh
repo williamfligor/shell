@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+curl -sL git.io/antibody | sh -s
+
 # Install tmux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 

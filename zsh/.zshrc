@@ -1,17 +1,3 @@
-source ~/shell/zsh/antigen.zsh
-
-antigen use oh-my-zsh
-
-antigen bundle git
-antigen bundle vi-mode
-antigen bundle command-not-found
-
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-antigen theme agnoster
-
-antigen apply
-
 MISC=~/.console-includes/
 source $MISC/aliases
 source $MISC/functions
@@ -21,3 +7,11 @@ source $MISC/exports
 if [ -f $MISC/local ]; then
     source $MISC/local
 fi
+
+setopt PROMPT_SUBST
+
+source <(antibody init)
+antibody bundle < ~/.zsh_plugins.txt
+
+# Stop sharing history between terminals. It's annoying
+unsetopt SHARE_HISTORY
