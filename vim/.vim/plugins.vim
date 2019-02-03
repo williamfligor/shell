@@ -18,6 +18,7 @@ Plug 'jimmay5469/vim-spacemacs'
 Plug 'tpope/vim-sensible'
 
 " Theming
+Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plug 'micha/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

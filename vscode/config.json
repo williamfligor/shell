@@ -1,0 +1,44 @@
+{
+    "editor": {
+        "lineNumbers": "relative",
+        "minimap.enabled": false,
+        "renderWhitespace": "none",
+        "overviewRulerBorder": false,
+        "hideCursorInOverviewRuler": true,
+        "folding": true,
+        "glyphMargin": false,
+        "fontSize": 11,
+        "fontFamily": "Sauce Code Pro Nerd Font, Menlo, Monaco, 'Courier New', monospace"
+    },
+    "explorer": {
+        "openEditors.visible": 0
+    },
+    "workbench": {
+        "activityBar.visible": true,
+        "editor.showIcons": false,
+        "editor.tabCloseButton": "off",
+        "statusBar.visible": true,
+        "colorTheme": "Tomorrow Night"
+    },
+    "window.zoomLevel": 0,
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "files.associations": {
+        "*.pyx": "python"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "terminal.integrated.fontFamily": "Source Code Pro"
+}
