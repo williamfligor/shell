@@ -15,3 +15,6 @@ antibody bundle < ~/.zsh_plugins.txt
 
 # Stop sharing history between terminals. It's annoying
 unsetopt SHARE_HISTORY
+
+autoload compinit && compinit
+zstyle ':completion:*' menu select

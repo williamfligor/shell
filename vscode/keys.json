@@ -7,6 +7,19 @@
             {
                 "before": [
                     "<leader>",
+                    "enter"
+                ],
+                "after": [],
+                "commands": [
+                    {
+                        "command": "workbench.action.showCommands",
+                        "args": []
+                    }
+                ]
+            },
+            {
+                "before": [
+                    "<leader>",
                     "<space>"
                 ],
                 "after": [],

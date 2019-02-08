@@ -1,4 +1,12 @@
 zsh-users/zsh-syntax-highlighting
-agnoster/agnoster-zsh-theme
 sinetoami/vi-mode
 robbyrussell/oh-my-zsh path:lib/history.zsh
+zsh-users/zsh-autosuggestions
+
+# agnoster/agnoster-zsh-theme
+# denysdovhan/spaceship-prompt
+
+#  Pure Theme
+mafredri/zsh-async
+sindresorhus/pure
+#! Pure Theme
