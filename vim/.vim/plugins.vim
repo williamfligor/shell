@@ -26,6 +26,7 @@ Plug 'junegunn/rainbow_parentheses.vim'
 
 " Utils
 Plug 'editorconfig/editorconfig-vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 " Autocomplete
 Plug 'ervandew/supertab'

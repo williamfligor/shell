@@ -19,7 +19,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 stow bash
 stow bin
-stow config
 stow git
 stow shell
 stow tmux
