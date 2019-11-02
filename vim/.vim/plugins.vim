@@ -37,6 +37,7 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 " Languages
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'vhdirk/vim-cmake'
 
 call plug#end()
 
