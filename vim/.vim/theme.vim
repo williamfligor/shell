@@ -1,6 +1,6 @@
 syntax on
 set background=dark
-colorscheme Tomorrow-Night
+silent! colorscheme Tomorrow-Night
 
 " Airline Theme
 let g:airline_theme='tomorrow'

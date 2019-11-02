@@ -2,6 +2,11 @@
 
 alias l="ls -laFbh"
 
+if [[ `uname` == 'Darwin' ]]; then
+else
+    alias ls="ls --color=auto"
+fi
+
 alias vi=vim
 alias vimc="vim -u NONE -N"
 
