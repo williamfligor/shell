@@ -7,6 +7,10 @@ zsh-users/zsh-autosuggestions
 # denysdovhan/spaceship-prompt
 
 #  Pure Theme
-mafredri/zsh-async
-sindresorhus/pure
+# mafredri/zsh-async
+# sindresorhus/pure
+#! Pure Theme
+
+#  Theme powerlevel10k
+romkatv/powerlevel10k
 #! Pure Theme

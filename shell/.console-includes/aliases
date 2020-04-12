@@ -32,3 +32,4 @@ alias rm="rm -i"
 
 alias speedtest="wget -O /dev/null http://cachefly.cachefly.net/100mb.test"
 
+# alias fv="vim $(fzf)"
