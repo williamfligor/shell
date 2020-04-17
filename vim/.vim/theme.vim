@@ -1,6 +1,13 @@
 syntax on
-set background=dark
-silent! colorscheme Tomorrow-Night
+set termguicolors
+
+" AYU
+let ayucolor="light"
+silent! colorscheme ayu
+
+" Tomorrow
+" set background=dark
+" silent! colorscheme Tomorrow-Night
 
 " Airline Theme
 let g:airline_theme='tomorrow'

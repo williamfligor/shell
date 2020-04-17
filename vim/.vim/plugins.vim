@@ -19,9 +19,10 @@ Plug 'tpope/vim-sensible'
 
 " Theming
 Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-Plug 'micha/vim-colors-solarized'
+" Plug 'micha/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ayu-theme/ayu-vim'
 Plug 'junegunn/rainbow_parentheses.vim'
 
 " Utils
@@ -29,7 +30,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'christoomey/vim-tmux-navigator'
 
 " Autocomplete
-Plug 'ervandew/supertab'
+" Plug 'ervandew/supertab'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Doxygen
 Plug 'vim-scripts/DoxygenToolkit.vim'
